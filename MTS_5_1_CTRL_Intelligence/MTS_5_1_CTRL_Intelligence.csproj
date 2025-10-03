@@ -3,8 +3,30 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net8.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Functions Framework -->
+    <PackageReference Include="Google.Cloud.Functions.Framework" Version="2.2.0" />
+    <PackageReference Include="Google.Cloud.Functions.Hosting" Version="2.2.0" />
+
+    <!-- CloudEvents -->
+    <PackageReference Include="CloudNative.CloudEvents" Version="2.7.1" />
+
+    <!-- Google Cloud Events (includes StorageObjectData) -->
+    <PackageReference Include="Google.Events.Protobuf" Version="1.3.0" />
+
+    <!-- Google Cloud Storage Client -->
+    <PackageReference Include="Google.Cloud.Storage.V1" Version="4.7.0" />
+
+    <!-- BigQuery and Excel -->
+    <PackageReference Include="Google.Cloud.BigQuery.V2" Version="3.9.0" />
+    <PackageReference Include="ClosedXML" Version="0.103.4" />
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="6.1.1" />
+    <PackageReference Include="System.Drawing.Common" Version="8.0.0" />
+
+  </ItemGroup>
 
 </Project>

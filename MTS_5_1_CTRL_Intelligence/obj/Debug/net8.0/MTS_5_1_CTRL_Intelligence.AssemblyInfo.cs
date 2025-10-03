@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MTS_5_1_CTRL_Intelligence")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+082b811b25379170776d2d46af05298e12aff1a0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f4e9ef6bec1cbb52fe482c72a1f3b79852b123f1")]
 [assembly: System.Reflection.AssemblyProductAttribute("MTS_5_1_CTRL_Intelligence")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MTS_5_1_CTRL_Intelligence")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
