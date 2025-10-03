@@ -10,7 +10,7 @@ ________________________________________
 🏗️ Architecture
 Google Cloud Storage (GCS): Entry point for input files/events.
 Google Cloud Functions (.NET 8): Business logic implementation.
-BigQuery / Cloud SQL (if applicable): Data persistence and analytics.
+BigQuery / Cloud SQL : Data persistence and analytics.
 Pub/Sub / Event Triggers: Asynchronous workflows.
 .NET 8 Console App: Same function logic.
 ________________________________________
