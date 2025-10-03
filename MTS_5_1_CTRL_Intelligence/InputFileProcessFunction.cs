@@ -509,7 +509,7 @@ namespace MTS_5_1_CTRL_Intelligence
                 }
                 else
                 {
-                    // convert to ddMMyy; use your existing converter which expects YYDDD or similar
+                    // convert to ddMMyy; use existing converter which expects YYDDD or similar
                     transactionDateConverted = ConvertJulianTransactionDate(julian);
                     if (string.IsNullOrEmpty(transactionDateConverted))
                         errors.Add($"TransactionDate '{julianDate}' could not be converted to calendar date.");
